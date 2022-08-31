@@ -8,7 +8,7 @@ namespace Logical_Programs
 {
     internal class Prime_number
     {
-        public void FindPrime()
+        public static void FindPrime()
         {
             Console.WriteLine("Enter number to check prime");
             int n = Convert.ToInt32(Console.ReadLine());
