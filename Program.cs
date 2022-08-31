@@ -18,6 +18,9 @@
                     break; 
                 case 3:
                     Prime_number.FindPrime();
+                    break; 
+                case 4:
+                    Reverse_number.FindReverseNumber();
                     break;
             }
         }
