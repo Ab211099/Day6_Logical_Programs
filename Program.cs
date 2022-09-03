@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to logical program");
-            Console.WriteLine("Enter the program number \n 1.Generate Fibonacci number \n 2. Perfect Number \n 3.Prime Number \n 4.Reverse number \n 5.Coupon number");
+            Console.WriteLine("Enter the program number \n 1.Generate Fibonacci number \n 2. Perfect Number \n 3.Prime Number \n 4.Reverse number \n 5.Coupon number \n 6.Stimulate stop watch");
             int optioncheck = Convert.ToInt32(Console.ReadLine());
 
             switch (optioncheck)
@@ -24,6 +24,9 @@
                     break;
                 case 5:
                   Coupon_Numbers.GetCouponNumber();
+                    break;
+                case 6:
+                  Stop_watch.stopWatch();
                     break;
             }
         }
